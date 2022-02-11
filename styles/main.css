@@ -1,0 +1,39 @@
+:root { /* Declaração de Variáveis */
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+* { /* Reset CSS */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row; /* Propriedade Default */
+    align-items: center;
+    justify-content: space-between; /* Distância entre elementos <h2> & div container */
+}
+
+header .container .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times, serif;
+    font-size: 40px;
+}
+
+header .container nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header .container nav a:hover { 
+    color: #FFF;
+}
