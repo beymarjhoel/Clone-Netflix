@@ -12,6 +12,7 @@
 body {
     background-color: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container {
@@ -36,4 +37,27 @@ header .container nav a {
 
 header .container nav a:hover { 
     color: #FFF;
+}
+
+/* filme-principal */
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50 ), rgba(0, 0, 0, .50)100%), url('../assets/capa-community.jpg');
+    
+    height: 400px;
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 40px; /* Espaço da Descrição */
+}
+
+.titulo {
+    font-size: 40px;
 }
